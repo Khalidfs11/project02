@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+*{
+    margin:0; padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+/* font */
+    accent-color: orangered;
+    font-family:'Oswald', sans-serif;
+}
+
+.logo{
+    font-size: 50px;
+    color: blue;
+}
+.container {
+
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+input[type="text"],input[type="password"],input[type="email"]
+{
+    font-size: 17px;
+    border: 1px solid lightgray;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+    width: 330px;
+
+}
+
+input:focus{
+        border: 1px solid orangered;
+}
+
+button[type="submit"]{
+
+    background: rgb(0, 0, 204);
+    border: none;
+    font-size: 20px;
+    padding: 12px;
+    cursor: pointer;
+    color: #fff;
+}
+label{
+    padding: 5px;
+    cursor: pointer;
+    
+}
+
+#new{
+
+        border: none;
+        background: #fff;
+        cursor: pointer;
+}
+
+#new:hover{
+
+    color: orangered;
+    text-decoration: underline;
+}
